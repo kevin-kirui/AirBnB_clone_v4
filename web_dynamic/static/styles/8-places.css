@@ -1,0 +1,58 @@
+ .places .information .number_rooms,
+.container .places .information .number_bathrooms {
+	width: 100px;
+	padding: 10px 0 0 0;
+	background-repeat: no-repeat;
+	background-position: center 5px;
+	text-align: center;
+	line-height: 25px;
+}
+
+.container .places .user {
+	margin: 20px 0 5px 0;
+}
+
+.container .places .description {
+    padding-top: 15px;
+}
+
+.container .places .reviews h2 {
+    text-align: left;
+}
+
+.container .places .reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    margin-top: 5px;
+}
+
+.container .places .reviews ul {
+    list-style-type: none;
+}
+
+.container .places .reviews h3 {
+    font-size: 14px;
+}
+
+.container .places .reviews li {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+	.container .places .information {
+		height: auto;
+	}
+
+	.container .places .price_by_night {
+		border: 2px solid #FF5A5F;
+		min-width: 40px;
+		height: 40px;
+		font-size: 20px;
+		top: 3px;
+		right: 3px;
+		text-align: center;
+		line-height: 42px;
+	}
+}
